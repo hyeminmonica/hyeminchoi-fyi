@@ -1,0 +1,229 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%
+}
+
+body {
+    background-color: white;
+    color: black;
+    font-family: "Avenir";
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0
+    word-break: keep-all;
+}
+
+h1 {
+   font-size: 1.4em; 
+   font-weight: bold;
+   color: black;
+   margin-top: 0.15em;
+}
+
+h3 {
+    font-size: .9em;
+    font-weight: bold;
+    margin:0;
+    color: black;
+}
+
+li {
+    padding-left: 0.5em;
+    margin-bottom: 4px;
+    text-align: left;
+    list-style-type: circle
+    ;
+}
+
+table.sharemmore {
+    cursor: pointer;
+}
+
+a {
+    color: dodgerblue;
+}
+
+a:hover {
+    text-decoration: underline;
+    background: dodgerblue;
+    color: white;
+}
+
+.whole {
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    position: relative;
+}
+
+.center {
+    text-align: center;
+}
+
+.swap-lang{
+    margin-bottom: 10px;
+}
+
+.swap-lang a{
+    color:black;
+    text-decoration: none;
+    font-size: 0.8em;
+}
+
+.swap-lang a:hover{
+    color:white;
+    background: dodgerblue;
+    text-decoration: none;
+    font-size: 0.8em;
+}
+
+#abouthead {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#aboutmain h3 {
+    text-align: left;
+    margin-left: .3em;
+}
+
+table {
+    width: 100%;
+    border: 0.8px solid black;
+    font-size: 0.9em
+}
+
+table.smart {
+    margin: 0.5em 0 1.25em;
+    background-color: white;
+    font-size: 0.9em;
+}
+
+table.smart, 
+table.smart tr, 
+table.smart td, 
+table.smart th {
+    border-collapse: collapse;
+    padding: 11px 12px 10px;
+}
+
+table.smart thead {
+    background-color: rgb(255, 255, 236);
+}
+
+table.smart td,
+table.smart th {
+    border: 1px solid black;
+}
+
+.overshare {
+    display: none;
+}
+
+.overshare a,
+.doodlesovershare a{
+    color: dodgerblue;
+    background: transparent;
+}
+
+.overshare a:hover{
+    color: dodgerblue;
+    background: lemonchiffon;
+}
+
+.doodlesovershare a:hover{
+    color: dodgerblue;
+    background: lemonchiffon;
+}
+
+.overshare li,
+.doodlesovershare li {
+    list-style-type: none;
+}
+
+.overshare img {
+    margin: 3 3 3 0;
+    width: 400px;
+    height: auto;
+    border: .5px solid black;
+}
+
+#closebtn, 
+#doodlesclosebtn{
+    text-decoration: none;
+    color:dodgerblue;
+}
+
+#closebtn:hover{
+    text-decoration: none;
+    text-decoration: underline;
+    background: dodgerblue;
+    color: white;
+}
+
+#doodlesclosebtn:hover{
+    text-decoration: none;
+    text-decoration: underline;
+    background: dodgerblue;
+    color: white;
+}
+
+.extraclosebtn {
+    display: block;
+    margin: 5 0 20 0;
+    width: fit-content;
+}
+
+.doodlesovershare img {
+    margin: 3 3 3 0;
+    width: 200px;
+    height: auto;
+}
+
+.cookingovershare img {
+    margin: 10 10 10 0;
+    width: 150px;
+    height: auto;
+}
+
+.moviesovershare li,
+.readsovershare li,
+.artbooksovershare li{
+    list-style-type: disc;
+    margin-bottom: 10px;
+}
+
+.readsovershare a {
+    color: black;
+}
+
+.readsovershare a:hover{
+    background: lemonchiffon;
+    color: dodgerblue;
+}
+
+.venuesovershare li{
+    list-style-type: none;
+}
+
+.younginovershare img {
+    max-width: 400px;
+    height: auto;
+    margin: 0 0 10 0;
+}
+footer {
+    margin: 70 0 20 0; 
+    font-family: "Avenir";
+    font-size: 12px;
+    text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+    .whole {
+        margin: 12px;
+    }
+}
